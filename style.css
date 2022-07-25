@@ -8,11 +8,45 @@ body{
 }
 header{
     width: 100%;
-    height: 138px;
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 #top-div, #bottom-div{
     display: flex;
+    background-color: brown;
+    width: 1280px;
+    margin: 0px auto;
+}
+#top-left{
+    display: flex;
+}
+#top-left a{
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+#logo-group{
+    display: flex;
+    padding: 10px;
+}
+#logo-text{
+    margin: auto;
+}
+#top-right{
+    display: flex;
+    margin-left: auto;
+}
+#top-right button{
+    display: flex;
+    height: 50%;
+    margin: auto 15px;
+    border-radius: 5px;
+}
+#top-right button p{
+    margin: auto;
+}
+.top-right-img{
+    margin: auto 10px;
 }
