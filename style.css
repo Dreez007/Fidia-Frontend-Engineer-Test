@@ -14,12 +14,12 @@ header{
 }
 #top-div, #bottom-div{
     display: flex;
-    background-color: brown;
-    width: 1280px;
-    margin: 0px auto;
+    border-bottom: 2px solid #EAECF0;
+    width: 100%;
 }
 #top-left{
     display: flex;
+    margin-left: 40px;
 }
 #top-left a{
     padding: 10px;
@@ -36,17 +36,53 @@ header{
 }
 #top-right{
     display: flex;
-    margin-left: auto;
+    margin-left: 31em;
 }
 #top-right button{
+    background-color: white;
     display: flex;
     height: 50%;
-    margin: auto 15px;
+    padding: 0 5px;
+    margin: auto 10px;
+    border: 1px solid #EAECF0;
     border-radius: 5px;
 }
 #top-right button p{
     margin: auto;
 }
+#top-right button img{
+    margin: auto;
+}
 .top-right-img{
-    margin: auto 10px;
+    margin: auto 10px auto 0px;
+}
+#bottom-div{
+    padding: 5px;
+}
+#bottom-left{
+    display: flex;
+    margin-left: 40px;
+}
+#bottom-left a{
+    margin: auto 9px;
+    text-decoration: none;
+    color: black;
+}
+#bottom-div form{
+    background-color: white;
+    display: flex;
+    border: 1px solid #EAECF0;
+    border-radius: 5px;
+    margin-left: 31em;
+    height: 30px;
+}
+#bottom-div form img{
+    margin: auto 5px;
+}
+#bottom-div form input{
+    padding: 3px;
+    border: none;
+    margin: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
