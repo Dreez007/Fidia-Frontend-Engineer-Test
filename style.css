@@ -64,9 +64,10 @@ header{
     margin-left: 40px;
 }
 #bottom-left a{
-    margin: auto 9px;
+    margin: auto;
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 #bottom-div form{
     background-color: white;
@@ -85,4 +86,72 @@ header{
     margin: auto;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+header a:hover{
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+main{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 500px;
+}
+.welcome-sec{
+    display: flex;
+}
+.welcome-left p{
+    margin-top: 5px;
+}
+.welcome-right{
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+    height: 30px;
+    margin-left: auto;
+}
+.welcome-right button{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+#import-btn{
+    border: 2px solid #EAECF0;
+}
+#add-btn{
+    background-color: #7F56D9;
+    border: none;
+    color: white;
+}
+.welcome-right button p{
+    margin: auto;
+}
+.welcome-right button img{
+    margin:auto;
+}
+.stat-box-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.stat-box{
+    display: flex;
+    width: 25.5em;
+    height: 13em;
+    border: 2px solid #EAECF0;
+    border-radius: 10px;
+}
+.stat-box div{
+    display: flex;
+    flex-direction: column;
+}
+.stat-box-left{
+    margin-left: 15px;
+}
+.stat-box-right{
+    margin-right: 15px;
+}
+.percentage-stats{
+    display: flex;
 }
