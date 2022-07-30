@@ -5,6 +5,8 @@
 }
 body{
     background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 header{
     width: 100%;
@@ -138,20 +140,52 @@ main{
 .stat-box{
     display: flex;
     width: 25.5em;
-    height: 13em;
+    height: 11em;
     border: 2px solid #EAECF0;
     border-radius: 10px;
 }
-.stat-box div{
+.stat-box-left, .stat-box-right{
     display: flex;
     flex-direction: column;
 }
 .stat-box-left{
-    margin-left: 15px;
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.stat-box-right{
-    margin-right: 15px;
+.stat-box-left h1{
+    margin-top: 40px;
 }
 .percentage-stats{
+    font-size: 12px;
     display: flex;
+    flex-direction: row;
+    margin-top: auto;
+}
+.green-span{
+    color: #027A48;
+    margin-left: 2px;
+    margin-right: 7px;
+}
+.red-span{
+    color: #B42318;
+    margin-left: 2px;
+    margin-right: 7px;
+}
+.percentage-stats img{
+    margin: auto;
+}
+.percentage-stats p{
+    margin: auto;
+}
+.stat-box-right{
+    margin-left: 6em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dropdown-img{
+    margin-left: auto;
+}
+.chart-img{
+    margin-top: auto;
 }
